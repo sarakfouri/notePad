@@ -1,0 +1,22 @@
+.note{
+    padding: 10px 10px 38px 34 px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8px;
+    width: 60%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4em;
+    color: #222;
+    background: linear-gradient(-50deg, rgb(247, 253, 253), rgb(197, 194, 194));
+    border-radius: 3px;
+    box-shadow: 43x 3px 2px #333;
+    opacity: 1;
+}
+
+.fadeIn{
+    opacity: 0;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 0.1s;
+
+}

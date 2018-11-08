@@ -1,0 +1,50 @@
+body {
+  
+  background: url('images/pori02.jpg');
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+* {
+ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.headNotes{
+  
+  min-height: 2.5em;
+  max-height: 2em;
+  font-size: 3.2em;
+  color: rgb(5, 64, 133);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  align-content: center;
+  padding:20px 0px 20px 0px;
+  margin-bottom: 6px;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 10px #000;
+  display: block;
+}
+
+.notesBody {
+  padding-top: 24px;
+  padding-block-start: 25px;
+  padding-block-end: 98px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  position: relative;
+  padding: 0;
+  display: flex;
+  flex: 1 1 5%;
+  background-color: rgba(0,0,0,0.5);
+}
